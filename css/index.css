@@ -1,0 +1,309 @@
+@import url(/css/paleta.css);
+@import url(/css/fuente.css);
+* {
+    /*border: 1px solid var(--azul);*/
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--negro);
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+    outline: none;
+
+}
+a:visited{
+    color: inherit;
+}
+
+
+.navBar {
+    display: flex; 
+    align-items: center; 
+    padding: 0px;
+    margin: 10px 10px;
+    font-size: x-large;
+}
+
+.asideNavBar {
+    flex: 1; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 10vh;
+    
+   
+}
+
+.asideNavBar a {
+    height: inherit;
+    color: none;
+    text-decoration: none;
+}
+
+.imgNavBar {
+    height: inherit;
+    width: auto; 
+    padding: 0;
+    margin: 0;
+    height: inherit;
+    background-color: var(--negro);
+    border-radius: 10px;
+
+}
+.imgNavBar:hover {
+    box-shadow: 3px 3px 3px var(--azul);
+    transition: 0.2s;
+}
+
+
+.listaNavBar {
+    list-style: none; 
+    display: flex;
+    align-items: center;  
+    height: 50px;
+}
+
+.itemListaNavbar     {
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: var(--negro);
+    border-radius: 10px;
+
+}
+
+.itemListaNavbar:hover{
+    box-shadow: 3px 3px 3px var(--azul);
+    transition: 0.2s;
+}
+
+.itemListaNavbar > a{
+    
+    color: black;
+    font-family: 'Coolvetica Muy Negrita', sans-serif; 
+    font-weight: bold;
+    color: var(--blancoAntiguo);
+
+}
+
+
+.contenedorImgCabecera{
+    background-image: url(/img/cabecera.jpg);
+    background-color: transparent;
+    min-height: 90vh; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.eslogan {
+    font-family: 'Coolvetica Negrita', sans-serif;
+    font-size:3vw;
+
+    box-shadow: 1px 1px 3px 7px var(--blancoAntiguo);
+    color: var(--blancoAntiguo);
+    text-align: center;
+    
+}
+
+.textoCaja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 10px;
+    background-color: var(--negro);
+    color: var(--hueso);
+    text-align: center;
+    
+    
+}
+
+
+.textoCaja > p {
+    font-size: 2vw;
+    margin: 25px;
+}
+
+.listaCasas{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.listaCasas a {
+    margin: 20px;
+    width: 35vw;
+    border-radius: 10px;
+}
+
+
+.casa{
+    border-radius: 10px;
+    background-color: var(--blancoAntiguo);
+    transition: 0.5s;
+}
+
+.casa:hover{
+    box-shadow: 3px 3px 0px 0px var(--hueso);
+    border: none;
+    transition: 0.2s;
+
+}
+
+
+.casa > p {
+    text-align: center;
+    font-size: 1.5vw;
+}
+.casa > img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+.cajaPrecio{
+    text-align: center;
+    background-color: var(--azul);
+    padding: 20px;
+    font-size: 1.5vw;
+}
+
+
+
+.footerCaja{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--azul);
+   
+}
+
+
+
+.itemFooter{
+    height: 15vh;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+
+#itemFooter1{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start: 1;
+    grid-row-end:2;
+}
+#itemFooter2{
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start: 1;
+    grid-row-end:2;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+#itemFooter2 > label {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end:2;
+
+}
+
+.formFooter {
+    border-radius: 10px;
+    border: 1px solid var(--negro);
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 20vw;
+    
+}
+
+
+.inputFooter {
+
+    border-radius: 20px;
+    height: auto;
+
+}
+
+.inputFooterSubmit{
+    width: inherit;
+    font-size: large;
+}
+
+
+#itemFooter3{
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start: 1;
+    grid-row-end:2;
+}
+
+.itemFooter > img {
+    height: inherit;
+}
+
+.icono{
+    width: 1vw;
+    height: 1vh;
+}
+
+.itemFooter > ul {
+    height: inherit;
+    list-style: none;
+}
+
+.itemFooter > ul > li {
+    display: inline-flex;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px; 
+    height: 12px; 
+}
+
+
+::-webkit-scrollbar-track {
+    background: none;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #000; 
+    border: 2px solid #f1f1f1; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555; 
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: #333;
+}

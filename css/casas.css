@@ -1,0 +1,61 @@
+@import url(/css/paleta.css);
+@import url(/css/fuente.css);
+@import url(/css/index.css);
+
+
+.textoArriba{
+    background-color: var(--hueso);
+    text-align: center;
+    font-size: 1%;
+}
+
+.contenido{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.imagen{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    width: 60vw;
+    height: 90vh;
+
+    border-radius: 10px;
+}
+
+.imagen > img {
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+}
+
+.informacion{
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--hueso);
+}
+
+.elementoInfo {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.elementoInfo li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--negro);
+    margin: 10px;
+}
+
+.elementoInfo li span:first-child {
+    margin-right: 20px;
+}

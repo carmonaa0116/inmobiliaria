@@ -1,0 +1,67 @@
+@font-face{
+    font-family: 'Coolvetica Negrita';
+    src: url(/fuente/coolvetica\ rg.otf) format('otf');   
+}
+@font-face {
+    font-family: 'Coolvetica Negrita Italic';
+    src: url(/fuente/coolvetica\ rg\ it.otf) format('otf');
+}
+@font-face {
+    font-family: 'Coolvetica Normal';
+    src: url(/fuente/coolvetica\ condensed\ rg.otf) format('otf');
+}
+@font-face {
+    font-family: 'Coolvetica Muy Negrita';
+    src: url(/fuente/coolvetica\ compressed\ hv.otf) format('otf');
+}
+@font-face {
+    font-family: 'Coolvetica Junta';
+    src: url(/fuente/coolvetica\ crammed\ rg.otf);
+}
+
+h1{
+    font-family: 'Coolvetica Negrita', sans-serif;
+}
+p {
+    font-family: 'Coolvetica Junta', sans-serif;
+    letter-spacing: 2px;
+    font-stretch: ultra-expanded;
+}
+
+span {
+    font-family: 'Coolvetica Junta', sans-serif;
+    letter-spacing: 3px;
+    font-stretch: 10px;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+h2{
+    font-family: 'Coolvetica Junta', sans-serif;
+    letter-spacing: 2px;
+    font-size: 5vw;
+}
+
+h3{
+    font-family: 'Coolvetica Junta', sans-serif;
+    letter-spacing: 2px;
+    font-size: 5vw;
+}
+
+td{
+    font-family: 'Coolvetica Junta', sans-serif;
+    letter-spacing: 2px;
+    font-stretch: ultra-expanded;
+}
+
+input{
+    font-family: 'Coolvetica Junta', sans-serif;
+    letter-spacing: 2px;
+    font-stretch: ultra-expanded;
+}
+
+label {
+    font-family: 'Coolvetica Junta', sans-serif;
+    letter-spacing: 2px;
+    font-stretch: ultra-expanded;
+}
