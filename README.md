@@ -71,3 +71,6 @@ Este proyecto está bajo la licencia MIT (o especifica la que prefieras).
 ---
 
 ¡Gracias por visitar el repositorio! Si tienes sugerencias, dudas o mejoras que aportar, no dudes en abrir un **Issue** o enviarme un **Pull Request**.
+
+## 📸 Capturas
+<img width="1903" height="851" alt="image" src="https://github.com/user-attachments/assets/785a43fa-8f69-4506-a0d8-5fb5820679d1" />
